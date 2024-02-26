@@ -1,0 +1,88 @@
+/* :root{
+    font-family: sans-serif;
+} */
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(51, 51, 51);
+}
+header h1{
+    color: white;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+nav label a{
+    text-decoration: none;
+    
+}
+.About{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.About p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.Services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.Services-service p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.Services-service h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+
+}
+.Services-service{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px
+    
+    
+}
+.headings{
+    text-align: center;
+    padding-top: 15px;
+    
+}
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    color: white; 
+    padding-right: 13px;
+}
+.pic{
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}
+footer{
+    background-color:  rgb(51, 51, 51);
+    text-align: center;
+    margin-top: 100px
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    
+    padding: 12px;
+}
